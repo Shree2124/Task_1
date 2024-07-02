@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Shree Alasande</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" </head>
+    <style>
+        .heading {
+            text-transform: uppercase;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .main-body {
+            align-content: center;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact-div { 
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .contact p {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .mt{
+            margin: 2rem 1rem;
+        }
+
+        .skillset {
+            display: flex;
+            gap: 4rem;
+        }
+
+        .sub-skillset {
+            margin-top: 0.7rem;
+        }
+
+        body {
+            background: #313131;
+            color: #f2f2f2;
+            
+        }
+
+        section {
+            background-color: #201f1f;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+    </style>
+
+<body>
+    <header id="header">
+        <h1 class="heading">Shree Alasande</h1>
+        <hr>
+        <p class="heading">passionate web developer</p>
+        <hr>
+    </header>
+    <main class="main-body">
+        <article id="mainLeft">
+            <section class="contact mt">
+                <h2>CONTACT</h2>
+                <div class="contact-div">
+                    <p>
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="mailto:shreealasande@gmail.com">Drop Mail</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/gh-username">GitHub</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/linkedin-username">Linkedin</a>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2>SKILLS</h2>
+                <ul class="skillset mt">
+                    <li>
+
+                        <head>Web Development</head>
+                        <ul class="sub-skillset">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>
+
+                        <head>Programmin</head>
+                        <ul class="sub-skillset">
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </li>
+                    <li>
+
+                        <head>Tools</head>
+                        <ul class="sub-skillset">
+                            <li>Git</li>
+                            <li>VS Code</li>
+                            <li>Postman</li>
+                            <li>Thunder Client</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="mt">
+                <h2>EDUCATION</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Percentage</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10<sup>th</sup></td>
+                            <td>85.80%</td>
+                            <td>Pass</td>
+                        </tr>
+                        <tr>
+                            <td>Diploma in Computer Engineerin</td>
+                            <td>-</td>
+                            <td>Pursuing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+        <article id="mainRight">
+            <section class="mt">
+                <h2>ABOUT</h2>
+                <p>Motivated Computer Engineering student pursuing a diploma at Government Polytechnic Mumbai.
+                    Passionate
+                    about web development with MERN stack technology and HTML, CSS and JS. Quick learner with strong
+                    problem-solving skills and a team
+                    player eager to contribute to innovative projects.</p>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
